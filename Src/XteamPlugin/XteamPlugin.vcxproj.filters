@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{dc69ab5e-a02d-44f7-bdaa-070cd1c69504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{4df360b7-bae3-4b7b-a0bb-bbf4909e6e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Custom\User">
+      <UniqueIdentifier>{62f706c2-e399-4be4-8abe-1b84d0cb5da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\util">
+      <UniqueIdentifier>{7b98d9f1-57f0-425d-86a9-1dc3da9f0f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\DllMain">
+      <UniqueIdentifier>{e92ec281-ebf4-440b-a946-6fe27c291d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Plugins">
+      <UniqueIdentifier>{cffa1516-ebda-4cc8-a6bd-b9e7ef95c8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Plugins\SmokeEffect">
+      <UniqueIdentifier>{eb9b3cad-3c48-41ef-aff5-c149d4df4810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Plugins\AntiLa">
+      <UniqueIdentifier>{fa45e740-5bd3-47be-a577-4b2f2549f7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\TMemory">
+      <UniqueIdentifier>{4f6183b1-0b5b-4cc0-b886-fe582c4806b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\ToolKit">
+      <UniqueIdentifier>{3f68a161-d062-4b0d-87c3-1aa435f7a6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Plugins\LorenStudio">
+      <UniqueIdentifier>{b3d72e05-ed88-4ed2-a67a-03f09d940a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Header Files">
+      <UniqueIdentifier>{31bd44a6-1830-4bc5-b859-a6d6634d6a5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiLag.h">
+      <Filter>Custom\Plugins\AntiLa</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Custom\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Custom\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Dllmain.h">
+      <Filter>Custom\DllMain</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeEffect.h">
+      <Filter>Custom\Plugins\SmokeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="TMemory.h">
+      <Filter>Custom\TMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit.h">
+      <Filter>Custom\ToolKit</Filter>
+    </ClInclude>
+    <ClInclude Include="LorenStudio.h">
+      <Filter>Custom\Plugins\LorenStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Custom\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzMathLib.h">
+      <Filter>Custom\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Custom\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Custom\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Custom\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Custom\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiLag.cpp">
+      <Filter>Custom\Plugins\AntiLa</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Custom\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Custom\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Dllmain.cpp">
+      <Filter>Custom\DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeEffect.cpp">
+      <Filter>Custom\Plugins\SmokeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp">
+      <Filter>Custom\TMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit.cpp">
+      <Filter>Custom\ToolKit</Filter>
+    </ClCompile>
+    <ClCompile Include="LorenStudio.cpp">
+      <Filter>Custom\Plugins\LorenStudio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Camera.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>
