@@ -51,3 +51,4 @@
 #define pSetTextColor			((void(__thiscall*)(LPVOID This, BYTE r, BYTE g, BYTE b, BYTE h)) 0x00420040)
 #define pDrawButton				((void(__cdecl*)(DWORD, float, float, float, float, float, float)) 0x00790E40)
 #define pCheckMouseOver        //(float JcRenderY, float JcWidth, float JcHeight)
+#define pMapNumber				*(int*)0x0E61E18
