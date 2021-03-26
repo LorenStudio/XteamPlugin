@@ -20,6 +20,11 @@ Dynamic Effect Disable[F7 OR .INI]
 
 Static Effect Disable[F7 OR .INI]
 
+Select Server and Select Char Ex700
+
+Effects Select Server Ex700
+
+
 ```
 
 
